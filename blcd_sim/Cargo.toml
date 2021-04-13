@@ -1,9 +1,13 @@
 [package]
 name = "blcd_sim"
 version = "0.1.0"
-authors = ["chito"]
+authors = ["zometa@anixet.com"]
 edition = "2018"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+rand = "0.6.5"
+gnuplot = "0.0.31"
+argparse-rs = "=0.1.0"
+tempfile = "3.0"
